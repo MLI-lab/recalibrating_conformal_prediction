@@ -1,0 +1,47 @@
+# jupyter and python system files
+**/__pycache__
+**/.ipynb_checkpoints
+
+# ignore all images
+**/*.png
+**/*.jpg
+
+# ignore all compressed files
+**/*.iso
+**/*.tar
+**/*.tar.gz
+**/*.gz
+**/*.rar
+**/*.zip
+**/*.bin
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PyTorch Lightning
+lightning_logs/
+
+# project specific files
+**/*.npz
+**/*.pickle
+**/*.pkl
+**/*Copy*.ipynb
+**/*draft*
+results/
+
+# recalibration_conformal_prediction
+experiments/cache/*
+experiments/outputs/*_regression
+discarded_experiments
+
+# Exceptions
+!experiments/cache/domainnet_all2info.csv
+!experiments/cache/domainnet_real2info.csv
+!experiments/cache/recalibration_results.csv
+!experiments/cache/tps_recalibration_results.csv

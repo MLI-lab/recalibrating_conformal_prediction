@@ -1,0 +1,6 @@
+jupyter
+matplotlib
+tqdm
+pandas
+plotly
+robustness
